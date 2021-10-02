@@ -1,9 +1,9 @@
 const float theta_spacing = 0.07;
 const float phi_spacing   = 0.02;
-
 const float R1 = 1;
 const float R2 = 2;
 const float K2 = 5;
+
 // Calculate K1 based on screen size: the maximum x-distance occurs
 // roughly at the edge of the torus, which is at x=R1+R2, z=0.  we
 // want that to be displaced 3/8ths of the width of the screen, which
@@ -59,7 +59,7 @@ render_frame(float A, float B) {
         // closer to the viewer than what's already plotted.
         if(ooz > zbuffer[xp,yp]) {
           zbuffer[xp, yp] = ooz;
-          int luminance_index = L*8;
+          int luminance_index = L * 8;
           // luminance_index is now in the range 0..11 (8*sqrt(2) = 11.3)
           // now we lookup the character corresponding to the
           // luminance and plot it in our output:
@@ -68,7 +68,6 @@ render_frame(float A, float B) {
       }
     }
   }
-
   // now, dump output[] to the screen.
   // bring cursor to "home" location, in just about any currently-used
   // terminal emulation mode
@@ -76,6 +75,7 @@ render_frame(float A, float B) {
   for (int j = 0; j < screen_height; j++) {
     for (int i = 0; i < screen_width; i++) {
       putchar(output[i,j]);
+      
     }
     putchar('\n');
   }

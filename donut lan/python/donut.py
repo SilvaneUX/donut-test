@@ -3,9 +3,7 @@ const float phi_spacing   = 0.02;
 const float R1 = 1;
 const float R2 = 2;
 const float K2 = 5;
-const float K3 = 0;
 
-// Coba gyam
 // Calculate K1 based on screen size: the maximum x-distance occurs
 // roughly at the edge of the torus, which is at x=R1+R2, z=0.  we
 // want that to be displaced 3/8ths of the width of the screen, which
@@ -77,15 +75,9 @@ render_frame(float A, float B) {
   for (int j = 0; j < screen_height; j++) {
     for (int i = 0; i < screen_width; i++) {
       putchar(output[i,j]);
-      or (int j = 0; j < screen_height; j++) {
-    for (int i = 0; i < screen_width; i++) {
-      putchar(output[i,j]);
-      
-    }
       
     }
     putchar('\n');
   }
   
 }
-//still need more update

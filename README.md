@@ -12,17 +12,15 @@ but dont worry, we gonna made it another one ass soon as we finish remake that i
 --------------------------------------------------------------------------------------------
 Now,
 
-Welcome to donut-test, feel free to pull you own code building
+Welcome to donut-test, feel free to pull your own code!
 
-feel free to do your own research code that might be helpfull
+Feel free to do your own code. Our mission is to get clean code (you can pull everything yyou like!)
+But of course, please don't just print "Hello world" or anything like that!
 
-our mission is to get clean code (you can pull everything you think it usefull!) but of course please not printed some "Hello world".
+I will accept any source code that can run (it's okay if it had some bug, at least it can run).
+All bugged code will be fixed by other people, but please mention the bug so it will be more challenging
 
-i wil accpet any source code that than can run (it's okay if it had some bug, at least it can run). 
-Everyone could fix the other buged code.
-all bugged code could be fixed by anyone people, but pls mention the bug so it will be more challangging
+After you pull anything that you have made (like bug list, code review, new pull request, etc). Don't forget to add your name at CONTRIBUTING.md!
+I will merge it as soon as someone adds a new name to contributing list.
 
-After everything you made made, anything like bug list, code review, new pull request, dont forget to add your name at CONTRIBUTING.md
-I will merge it ass soon as someone add new name to contributing list
-
-Thank you all guys, happy coding and feed a bug XD
+Thank you so much, guys! Happy coding and feed a bug XD

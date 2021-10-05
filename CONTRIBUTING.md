@@ -15,4 +15,4 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 Contributor and Maintainers List :
 1. SilvaneUX (Contributor and Mantainer)
 2. bukanvalen (Contributor)
-3. 
+3. syaugis (Contributor)

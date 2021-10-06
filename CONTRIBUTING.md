@@ -5,16 +5,14 @@
 5. To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
 6. This year, the first 50,000 participants can earn a T-shirt.
 
+Feel free to do your own code. Our mission is to get clean code (you can pull everything yyou like!)
+But of course, please don't just print "Hello world" or anything like that!
 
-feel free to do your own code
-
-
-our mission is to get clean code (you can pull everything yyou like!) but of course pls not just printing some "Hello world".
-
-i wil accpet any source code that than can run (it's okay if it had some bug, at least it can run).
-all bugged code will be fixed by other people, but pls mention the bug so it will be more challangging
+I will accept any source code that can run (it's okay if it had some bug, at least it can run).
+All bugged code will be fixed by other people, but please mention the bug so it will be more challenging
 
 
 Contributor and Maintainers List :
 1. SilvaneUX (Contributor and Mantainer)
-2. 
+2. bukanvalen (Contributor)
+3. syaugis (Contributor)

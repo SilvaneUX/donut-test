@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h> 
 
-//Silvanus Prihantono
-//20081010223
+//Silvanus P.
+
+/*
+Selection Sorting, have wrong algorithm, pls fix it
+*/
 
 //unfinished
 
@@ -13,7 +16,8 @@ int isi=sizeof(a)/sizeof(a[0]);
 
 swap();
 
-//bug olgorithm
+//bug olgorithm on selsot
+
 void selsot(){
 int min=a[0];
 

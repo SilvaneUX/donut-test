@@ -16,3 +16,4 @@ Contributor and Maintainers List :
 1. SilvaneUX (Contributor and Mantainer)
 2. bukanvalen (Contributor)
 3. syaugis (Contributor)
+4. Mkuadrattt (Contributor)

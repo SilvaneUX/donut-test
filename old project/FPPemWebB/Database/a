@@ -1,0 +1,13 @@
+/* Create Database and Table */
+create database crud_db;
+ 
+use crud_db;
+ 
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(100),
+  `telp` varchar(15),
+  `email` varchar(64),
+  `alam` varchar(200),
+  PRIMARY KEY  (`id`)
+);

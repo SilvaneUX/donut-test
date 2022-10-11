@@ -1,0 +1,16 @@
+{
+    "name": "silva/phpoop",
+    "description": "modul4",
+    "autoload": {
+        "psr-4": {
+            "Silva\\Phpoop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SilvaneUX",
+            "email": "46640918+SilvaneUX@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

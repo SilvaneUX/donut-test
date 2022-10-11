@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Quicksand:wght@500;700&family=Raleway:wght@500&display=swap');
+#board {
+  font-family: 'Quicksand', sans-serif;
+  background-position: center top;
+  background-size: 100% 100%;
+  border-right: tan solid 4px;
+  border-top: #bda27e solid 4px;
+  border-left: #b19876 solid 4px;
+  border-bottom: #c9ad86 solid 4px;
+  box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782,
+    0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+  background-size: 100% auto;
+  padding: 2% 2% 0% 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3rem;
+}
+

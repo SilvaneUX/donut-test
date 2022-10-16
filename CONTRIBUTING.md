@@ -17,3 +17,7 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 2. bukanvalen (Contributor)
 3. syaugis (Contributor)
 4. Mkuadrattt (Contributor)
+5. GagasAmukti (Contributor)
+6. dmaxz (Contributor)
+7. RezaAminullah (Contributor)
+8. Sourabh06 (Contributor)

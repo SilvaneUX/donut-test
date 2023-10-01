@@ -1,0 +1,231 @@
+@media screen and (min-width: 750px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+ 
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.3em;
+    width: max-content;
+  }
+ 
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+ 
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: auto;
+  }
+ 
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+ 
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0 1.5rem;
+  }
+ 
+  .movies {
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+  .movie {
+    grid-template-columns: auto 1fr;
+  }
+ 
+  .movie .movie__title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+ 
+  .movie .movie__overview {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .resto-card p {
+    font-size: 2rem;
+  }
+}
+ 
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+  
+}
+ 
+@media screen and (max-width: 750px){
+
+h1{
+  font-size: 1.1em;
+}
+  
+.app-bar .app-bar__navigation {
+  position: absolute;
+  top: 5em;
+  left: -180px;
+  width: 1em;
+  transition: all 0.3s;
+  padding: 0;
+  margin: 0.1em 0.1em;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 3rem;
+  height: auto;
+}
+
+.app-bar .app-bar__navigation.open {
+  left: 0;
+  
+  width:fit-content ;
+  border-radius: 15px;
+
+}
+
+.app-bar .app-bar__navigation ul li{
+height: auto;
+margin: 1rem;
+}
+
+.app-bar .app-bar__navigation ul li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 3rem;
+}
+
+.resto-card p {
+    font-size: 1.4em;
+  }
+
+  .resto-detail p {
+    font-size: 1.3em;
+    padding: 0.5em;
+  }
+
+  .resto-detail a{
+    font-size: 1.5rem;
+  }
+
+  .resto-desc p{
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .resto-review{
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }  
+
+  .review-text, .review-name{
+    font-size: 0.8rem;
+    padding: auto;
+    margin: auto;
+  }
+
+.review-text{
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+  .resto-menu-header{
+    width: auto;
+  }
+
+  .resto-menu-header h1{
+    font-size: 1rem;
+  }
+
+  .customer-review{
+    margin: auto;
+  }
+
+  #foods-container, #drinks-container{
+    width: 100%;
+  }
+
+  .food-item, .drink-item{
+    font-size: 1.3rem;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .resto-card p {
+    font-size: 1.25em;
+  }
+  .food-item, .drink-item{
+    font-size: 14px;
+  }
+  #foods-container, #drinks-container{
+    width: 75%;
+  }
+
+  .like{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .resto-detail {
+    width: auto;
+
+  }
+
+  .resto-review{
+    margin: 0;
+    width: 100%;
+  }  
+
+  .review-text, .review-name{
+    font-size: 0.8rem;
+    padding: auto;
+    margin: auto;
+  }
+.review-text{
+  font-weight: 800;
+  font-size: 0.9;
+}
+
+  .resto-menu-header{
+    width: auto;
+  }
+
+  .resto-menu-header h1{
+    font-size: 1rem;
+  }
+  .resto-detail tb {
+    width: auto;
+  }
+
+  .resto-detail a{
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .resto-detail tb p{
+    font-size: 0.8rem;
+  }
+
+  .customer-review{
+    margin: auto;
+  }
+
+}
+
+
+@media screen and(max-width: 580px) {
+  .resto-card span {
+    padding: 0;
+  }
+  .food-item, .drink-item{
+    font-size: 14px;
+  }
+}

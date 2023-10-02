@@ -67,4 +67,4 @@ I will merge it as soon as someone adds a new name to contributing list.
 
 Thank you so much, guys! Happy coding and feed a bug XD
 
-==============================================================================================
+--------------------------------------------------------------------------------------------

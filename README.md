@@ -1,7 +1,6 @@
 ---------------------------------------------------------------------------------------------
-formerly,
+<h1>Legacy of donut-test</h1>
 
-# donut-test
 #### Wow, it's a donut!
 I really love donuts! So I contributed to this repo that prints a spinning 3d donut using every programing Language! 
 inspirated by the guy who made 3d spining donut on python
@@ -10,9 +9,8 @@ yeah, it's sad
 but dont worry, we gonna made it another one ass soon as we finish remake that in python
 
 --------------------------------------------------------------------------------------------
-Now,
 
-# Welcome to donut-test, feel free to pull your own code!
+<h1> Welcome to donut-test, feel free to pull your own code! </h1>
 
 Feel free to do your own code. Our mission is to get clean code (you can pull everything yyou like!)
 But of course, please don't just print "Hello world" or anything like that!

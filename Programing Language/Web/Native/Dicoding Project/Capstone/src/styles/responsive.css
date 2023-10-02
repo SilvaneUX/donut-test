@@ -1,0 +1,331 @@
+
+@media screen and (max-width:499px) {
+
+}
+
+@media screen and (min-width:300px) {
+    /* alat kesehatan */
+    .container-kalkulator-bmi #content-kalkulator{
+        width: 200px;
+      }
+      .container-rekomendasi{
+        width: 200px;
+        height: 100px;
+        padding: 15px; 
+      }
+      .image-rekomendasi{
+        width: 50px;
+        border-radius: 15px;
+      }
+      .info-rekomendasi h4,.headline,.selengkapnya {
+        font-size: 5px;
+      }
+      .selengkapnya a{
+        font-size: 5px;
+        padding: 5px 5px;
+      }
+
+}
+
+@media screen and (min-width:350px) {
+    /* about us */
+    .img-baner1{
+       width: 250px;
+       border-radius: 20px;
+       margin-left: 50px;
+   }
+   .text-about{
+       width: 300px;
+       margin-top: 50px;
+       margin-left: 35px;
+   }
+
+}
+
+@media screen and (min-width:450px) {
+     /* about us */
+     .img-baner1{
+        width: 300px;
+        border-radius: 20px;
+        margin-left: 70px;
+    }
+    .text-about{
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+     /* alat kesehatan */
+     .container-kalkulator-bmi #content-kalkulator{
+        width: 430px;
+      }
+      .container-rekomendasi{
+        width: 430px;
+        height: 300px;
+        padding: 15px; 
+      }
+      .image-rekomendasi{
+        width: 180px;
+        border-radius: 15px;
+      }
+      .info-rekomendasi h4,.headline,.selengkapnya {
+        font-size: 15px;
+      }
+      .selengkapnya a{
+        font-size: 15px;
+        padding: 10px 10px;
+      }
+}
+
+@media screen and (max-width:510px) {
+    .image-detail-obat{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:650px) {
+     /* about us */
+     .img-baner1{
+        width: 400px;
+        border-radius: 20px;
+        margin-left: 150px;
+    }
+    .text-about{
+        width: 550px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+}
+@media screen and (min-width:700px) {
+    /* about us */
+    .img-baner1{
+        width: 500px;
+        border-radius: 20px;
+        margin-left: 150px;
+    }
+    .text-about{
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:767px) {
+    #quote {
+        margin-top: 400px;
+        margin-bottom: 40px;
+    }
+
+    .main-artikel {
+        margin-bottom: 40px
+    }
+
+    .title-artikel{
+        margin-top: 0;
+    }
+
+    #bmi {
+
+        margin-top: 40px;
+    }
+    #post, #medicine {
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (min-width:950px){
+    /* about us */
+    .img-baner1{
+        width: 600px;
+        border-radius: 20px;
+        margin-left: 100px;
+    }
+    .text-about{
+        width: 600px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+     /* alat kesehatan */
+     .container-kalkulator-bmi #content-kalkulator{
+        width: 600px;
+      }
+
+}
+
+@media screen and (max-width:992px) {
+
+    .main-artikel h1 {
+        font-size:x-large;
+    }
+    .main-artikel p {
+        font-size:small;
+    }
+
+    .main-artikel {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .jumbotron {
+
+        height: 440px;
+    }
+    .jumbotron-body h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .jumbotron-body {
+        padding-top: 50px;
+    }
+
+    .jumbotron-body p {
+        line-height: 20px;
+        font-size: small;
+    }
+
+    .button {
+        padding: auto;
+    }
+    #post, #medicine {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}@media screen and (min-width:992px) {
+    .main-artikel {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .main-artikel h1 {
+        font-size:xx-large;
+    }
+
+    .jumbotron {
+
+        height: 540px;
+    }
+
+    .jumbotron-body h1 {
+        font-size: 45px;
+        line-height: 35px;
+    
+    }
+    .jumbotron-body {
+        padding-top: 110px;
+    }
+
+    .jumbotron-body p {
+        line-height: 20px;
+    
+    }
+    #post, #medicine {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width:1175px){
+    /* about us */
+    .img-baner1{
+        width: 500px;
+        border-radius: 20px;
+    }
+    .text-about{
+        width: 500px;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgb(199, 143, 0);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+    }
+    .title-artikel {
+        margin-top: 80px;
+    }
+    .jumbotron-body {
+        padding-top: 150px;
+    }
+    .jumbotron-body p {
+        line-height: 35px;
+    
+    }
+    .quote {
+        margin-top: 400px;
+    }
+    #post, #medicine {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* alat kesehatan */
+    .container-kalkulator-bmi #content-kalkulator{
+        width: 800px;
+      }
+      .container-rekomendasi{
+        column-gap: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 900px;
+        height: 300px;
+        padding: 15px; 
+      }
+      .image-rekomendasi{
+        width: 400px;
+        border-radius: 15px;
+      }
+      .info-rekomendasi h4,.headline,.selengkapnya {
+        font-size: 20px;
+      }
+      .selengkapnya a{
+        font-size: 15px;
+        padding: 20px 40px;
+      }
+      .headline{
+        margin-bottom: 40px;
+      }
+
+}
+@media screen and (min-width:1400px) {
+    #quote {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .title-artikel {
+        margin-top: 80px;
+    }
+    .jumbotron-body {
+        padding-top: 150px;
+    }
+    .jumbotron-body p {
+        line-height: 35px;
+    
+    }
+    #post, #medicine {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    /* about us */
+    .row{
+        flex-wrap: nowrap;
+    }
+    .img-baner1{
+        width: 550px;
+    }
+    .text-about{
+        width: 600px;
+    }
+
+}

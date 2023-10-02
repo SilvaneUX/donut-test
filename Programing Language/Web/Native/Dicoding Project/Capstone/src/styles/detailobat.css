@@ -1,0 +1,34 @@
+.container-detail{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.detail-obat{
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px; 
+    margin-bottom: 150px;
+}
+.container-detail-obat{
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.deskripsi-detail-obat{
+    padding: 21px;
+    text-align: justify;
+}
+.image-detail-obat{
+    width: 450px;
+    margin-left: 20px;
+}
+.base-price{
+    margin-bottom: 25px;
+}
+.perstrip{
+    color: rgb(199, 143, 0);
+}
+.warning-obat{
+    color: red;
+}

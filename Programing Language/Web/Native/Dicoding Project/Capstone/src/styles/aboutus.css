@@ -1,0 +1,57 @@
+.about-web{
+    margin-top: 130px;
+}
+.img-baner1{
+    width: 550px;
+    border-radius: 20px;
+}
+.text-about{
+    width: 600px;
+}
+.text-about p{
+  text-align: justify;
+}
+.heading-1{
+    margin-bottom: 10px;
+}
+.heading-2{
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.heading-3{
+    margin-top: 50px;
+}
+.heading-4{
+   margin-bottom: 70px;
+}
+
+.team-pengembang {
+    padding: 100px 100px 0;
+  }
+  .profile .cardBx {
+    width: 18rem !important;
+    cursor: pointer;
+  }
+  .card-hover-img img {
+    transition: .4s;
+  }
+  .card-hover-img:hover img {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  .card-hover {
+    background: #fff;
+    bottom: 0;
+    opacity: 0;
+    transition: all .3s;
+  }
+  .card:hover .card-hover {
+    background: rgba(255,255,255,.8);
+    opacity: 1;
+  }
+  .card-body a{
+     color: black;
+  }
+  .card-body a:hover{
+    color: rgb(199, 143, 0);
+    transition: all .1s ease-in-out;
+ }

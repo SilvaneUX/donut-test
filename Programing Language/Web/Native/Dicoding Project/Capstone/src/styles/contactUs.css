@@ -1,0 +1,41 @@
+.kontak{
+    width: 100%;
+    height: 150vh;
+  }
+  .head{
+    background-color: rgb(199, 143, 0);
+    border-radius: 5px;
+    margin-top: -40px;
+    -webkit-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+    -moz-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+    box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+  }
+  .kontak .container {
+    margin-top: 10px;
+  }
+  .kontak .container .card{
+    margin-top: 90px;
+    box-shadow: -1px 9px 27px -8px rgb(41, 41, 40);
+  }
+
+  .effect-1{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .btn1{
+    background: rgb(199, 143, 0);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+  }.btn1:hover{
+    -webkit-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+    -moz-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+    box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+  }
+  

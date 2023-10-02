@@ -1,0 +1,157 @@
+@import 'alatkesehatanPage.css';
+@import 'contactUs.css';
+@import 'aboutus.css';
+@import 'detailobat.css';
+
+.btn-bmi {
+  align-items: center;
+}
+
+.jumbotron {
+
+    height: 640px;
+}
+
+#heroes {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+}
+
+#brand b {
+    color: #cf8f32;
+}
+
+.quote {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#post {
+    margin: 100px auto;
+    margin-bottom: 150px;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+  }
+
+.checked {
+  background-color: #151823 !important;
+}
+
+  #medicine {
+    margin: 100px auto;
+    margin-bottom: 150px;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+  }
+
+  .active {
+    font-weight: bold;
+    border-bottom: 3px solid rgb(199, 143, 0);
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+  }
+
+  nav {
+    background-color: white;
+    top: 0;
+    border-bottom:1px solid #c6c6c6;
+  }
+
+  .nav-item {
+    padding-left: 40px;
+  }
+
+  .post-item-body {
+    padding: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .thumbnail {
+    width: 100%;
+    height: 200px;
+  }
+
+  .post-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+.button {
+    background: linear-gradient(17deg, rgba(215,153,79,1) 34%, rgba(225,197,101,1) 73%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin: auto;
+    border-color: white;
+    margin-top: 10px;
+}
+.btn-login {
+    background-color: #cf8f32;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: auto;
+    border-color: white;
+}
+
+.jumbotron-body h1 {
+    font-size: 60px;
+    line-height: 50px;
+
+}
+
+.jumbotron-body p {
+    line-height: 5px;
+
+}
+
+.jumbotron {
+    margin-top: 80px;
+}
+
+.skip-link
+{
+    position:absolute;
+    top:-50px;
+    left:0;
+    padding:8px;
+    z-index:100
+}
+
+.skip-link:focus
+{
+    top:0
+}
+
+#list-artikel {
+    margin-bottom: 40px;
+}
+
+
+.footer {
+    padding-block: 2rem;
+    background-color: #151823;
+    color: white;
+}
+
+.bmi-header {
+    color: white;
+    background: linear-gradient(90deg, rgba(215,153,79,1) 53%, rgba(225,197,101,1) 81%);
+}
+
+.footer_container {
+    max-width: 116rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}

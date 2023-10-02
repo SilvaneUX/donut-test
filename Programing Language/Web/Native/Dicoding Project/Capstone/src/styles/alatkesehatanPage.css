@@ -1,0 +1,183 @@
+.container-kalkulator-bmi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;   
+}
+
+.container-kalkulator-bmi #content-kalkulator{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 600px;
+  margin-top: 30px;
+
+}
+
+.container-kalkulator-bmi  h2 {
+  text-align: center;
+  color: rgb(199, 143, 0);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.content-kalkulator-bmi .header-riwayat{
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+#content-kalkulator .input_inline{
+  margin-bottom: 20px;
+
+}
+#content-kalkulator .input_inline label{
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.effect-input{
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.content-kalkulator-bmi .container-kalkulator-bmi #content-kalkulator  #bmiSubmit{
+  background: rgb(199, 143, 0);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px;
+}
+.content-kalkulator-bmi .container-kalkulator-bmi #content-kalkulator  #bmiSubmit:hover{
+  -webkit-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+  -moz-box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+  box-shadow: -1px 9px 27px -8px rgb(198, 158, 59);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 70px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.result #result {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 900;
+  color: rgb(199, 143, 0);
+  background-color: #eaeaea;
+  box-shadow: 0px 0px 20px rgb(198, 158, 59);
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+#comment-result {
+  color: rgb(199, 143, 0);
+  font-weight: 800;
+}
+
+.comment-result {
+  text-align: center;
+  display: none;
+  border: dashed 1px;
+  border-radius: 7px;
+  padding: 5px;
+  width: 300px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 300px;
+
+}
+
+.modal-content {
+  background-color: #fefefe;
+  box-shadow: 0px 0px 30px rgb(198, 158, 59);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(199, 143, 0);
+  width: 400px;
+  border-radius: 10px;
+}
+
+#modalText {
+  padding-top: 8px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.rekomendasi-artikel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container-rekomendasi{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #ccc;
+  column-gap: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 900px;
+  height: 300px;
+  padding: 15px; 
+  box-shadow: 0px 0px 10px rgb(198, 158, 59);
+}
+.image-rekomendasi{
+  width: 400px;
+  border-radius: 15px;
+}
+
+.header-rekomendasi{
+  display: none;
+}
+.close{
+  cursor: pointer;
+}
+
+
+.selengkapnya a{
+  font-size: 15px;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(199, 143, 0);
+  color: white;
+}
+
+.headline{
+  margin-bottom: 40px;
+}

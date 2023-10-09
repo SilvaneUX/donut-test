@@ -13,12 +13,12 @@ I will accept any source code that can run (it's okay if it had some bug, at lea
 All bugged code will be fixed by other people, but please mention the bug so it will be more challenging.
 
 ### Contributor and Maintainers List:
-1. SilvaneUX (Contributor and Mantainer)
-2. bukanvalen (Contributor)
-3. syaugis (Contributor)
+1. SilvaneUX - Silvanus Prihantono (Contributor and Mantainer)
+2. bukanvalen - Valentino Harpa(Contributor)
+3. syaugis - M. Syaugi Shahab (Contributor)
 4. Mkuadrattt (Contributor)
 5. GagasAmukti (Contributor)
-6. dmaxz (Contributor)
+6. dmaxz - Ken Dahana (Contributor)
 7. RezaAminullah (Contributor)
 8. Sourabh06 (Contributor)
 9. lakshay007 (Contributor)

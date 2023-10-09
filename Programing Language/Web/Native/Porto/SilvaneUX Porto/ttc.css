@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Quicksand:wght@500;700&family=Raleway:wght@500&display=swap');
+#board {
+  font-family: 'Quicksand', sans-serif;
+  background-position: center top;
+  background-size: 100% 100%;
+  border-right: tan solid 4px;
+  border-top: #bda27e solid 4px;
+  border-left: #b19876 solid 4px;
+  border-bottom: #c9ad86 solid 4px;
+  box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782,
+    0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+  background-size: 100% auto;
+  padding: 2% 2% 0% 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#tictac {
+    color: #ec1111;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tictac td {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+  font: bold 36px sans-serif;
+}
+td:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+td#cell0,
+td#cell1,
+td#cell2,
+td#cell3,
+td#cell4,
+td#cell5 {
+  border-bottom: 3px solid white;
+}
+td#cell0,
+td#cell1,
+td#cell3,
+td#cell4,
+td#cell6,
+td#cell7 {
+  border-right: 3px solid white;
+}
+#result {
+  margin: 0.5em;
+  margin-bottom: 40px;
+  font: 24px sans-serif;
+}
+.playerPick {
+  margin-bottom: 50px;
+}
+#x {
+    
+  margin-right: 20px;
+}
+#o {
+  margin-left: 20px;
+}
+#reset {
+    color: aqua;
+    font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+button {
+  height: 6vh;
+  width: 12vw;
+  min-width: 160px;
+  min-height: 50px;
+  margin: 1vw;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+  position: relative;
+  overflow: hidden;
+}
+
+button:nth-of-type(1) {
+  transition: color 0.4s ease-in-out, background-color 1.5s ease-in-out;
+}
+button:nth-of-type(1):hover {
+  color: #ec1111;
+}
+button:nth-of-type(1)::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  background-color: red;
+  height: 10%;
+  width: 100%;
+
+  transition: all 0.4s ease-in-out;
+}
+
+button:nth-of-type(1):hover::after {
+  left: 0;
+}
+#deco1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4rem;
+  -ms-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+  margin-top: 20px;
+  margin-left: 100px;
+}
+button:nth-of-type(3) {
+  transition: all 0.4s ease-in-out 0.4s;
+}
+button:nth-of-type(3):hover {
+  border: 2px solid white;
+}
+
+button:nth-of-type(3)::before {
+  content: " ";
+  position: absolute;
+  bottom: -100%;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+button:nth-of-type(3):hover::before {
+  bottom: 0;
+  right: 0;
+}
+
+button:nth-of-type(3)::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
+  z-index: 5;
+}
+button:nth-of-type(3):hover::after {
+  top: 50;
+  left: 0;
+}
+button:nth-of-type(2) {
+  background-color: transparent;
+  border: 2px solid #ec1111;
+  z-index: 1;
+  transition: color 0.4s ease-in-out, border 0.4s ease-in-out 0.6s;
+}
+button:nth-of-type(2):hover {
+  color: white;
+  border: 2px solid white;
+}
+button:nth-of-type(2)::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: red;
+  top: -100%;
+  left: 0;
+  transition: all 0.6s ease-in-out;
+  z-index: -1;
+}
+
+button:nth-of-type(2):hover::before {
+  top: 0;
+}
+button:nth-of-type(2)::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: red;
+  bottom: -100%;
+  left: 0;
+  transition: all 0.6s ease-in-out;
+  z-index: -1;
+}
+button:nth-of-type(2):hover::after {
+  bottom: 0;
+}
+h2 {
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  white-space: nowrap;
+  font-size: 2vw;
+  z-index: 1000;
+  font-family: "Bangers", cursive;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+  @include skew(0, -6.7deg, false);
+  @include transition-property(font-size);
+  @include transition-duration(0.5s);
+}
+#result {
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  white-space: nowrap;
+  font-size: 2vw;
+  z-index: 1000;
+  font-family: "Bangers", cursive;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+  @include skew(0, -6.7deg, false);
+  @include transition-property(font-size);
+  @include transition-duration(0.5s);
+}
+.credit {
+  font-size: 2rem;
+}
+.credit a {
+  color: white;
+}
+#rightboard {
+  position: absolute;
+  margin-left: 750px;
+}
+@media (max-width: 992px) {
+  #board {
+    background-image: radial-gradient(
+        circle at left 30%,
+        rgba(34, 34, 34, 0.3),
+        rgba(34, 34, 34, 0.3) 80px,
+        rgba(34, 34, 34, 0.5) 100px,
+        rgba(51, 51, 51, 0.5) 160px,
+        rgba(51, 51, 51, 0.5)
+      ),
+      linear-gradient(
+        215deg,
+        transparent,
+        transparent 100px,
+        #222 260px,
+        #222 320px,
+        transparent
+      ),
+      radial-gradient(circle at right, #111, rgba(51, 51, 51, 1));
+  }
+  #deco1 {
+    font-size: 0rem;
+  }
+  #cup {
+    height: 0px;
+  }
+}
+
+

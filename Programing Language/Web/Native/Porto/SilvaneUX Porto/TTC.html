@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!--Cssku -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Cssku end -->
+
+    <!-- Style -->
+
+    <script src="script.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="ttc.css" />
+    <title>Silvanus Prihantono Portofolio</title>
+  </head>
+
+  <body style="background-color: #262625">
+    <!-- Navbar-->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark shadow"
+      style="background-color: #595958"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand text-white"
+          href="#socmed"
+          data-bs-target="#brandna"
+        >
+          <img
+            id="topleft"
+            src="img/Ntapss Mono onlyFixed Blazer Square.jpg"
+            class="d-inline-block align-text-top"
+            alt="xxx"
+            width="30px"
+            height="30px"
+          />
+          SilvaneUX
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+          role="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                role="button"
+                aria-controls="#n+ avbarNav"
+                href="index.html#projects"
+                >Galery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="uxc.html"
+                tabindex="-1"
+                aria-atomic="true"
+                >My Social Media</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar-End -->
+
+    <!-- Jumbo -->
+    <section
+      id="home"
+      class="jumbotron text-center text-white-50"
+      style="padding-top: 6rem"
+    >
+      <div class="container legen">
+        <img
+          src="img/Ntapss Mono onlyFixed Blazer Square.jpg"
+          alt="Silvanus Prihantono"
+          width="225"
+          class="img-thumbnail imagejum responsive img-fluid"
+          data-aos="fade-down"
+          data-aos-duration="500"
+        />
+        <div class="overlay">
+          <div class="textleg"><b>I Am Legend</b></div>
+        </div>
+      </div>
+      <h1 data-aos="zoom-in-up" class="display-4 responsive">
+        Silvanus Prihantono
+      </h1>
+      <p class="lead"></p>
+
+      <p class="joke" data-aos="fade-down">
+        Yes, it's true. <b>I</b> am literaly a joke. Ohh wait, I <b>am</b> not a
+        Joke. There is <b>a</b> meaning on every
+        <b>Joke.</b>
+      </p>
+      <a
+        class="btn btn-lg text-success btn-outline-light learnme"
+        href="uxc.html"
+        role="button"
+        fill="currentColor"
+        >Learn more</a
+      ><br><br>
+    </section>
+    <!-- Jum-End -->
+
+    <!-- Page Content -->
+    <!-- Project -->
+    <section id="TTC" class="TTC" style="font-family: 'Quicksand', sans-serif;">
+      <div id="board" class="container text-center">
+        <h2 style="font-family: 'Quicksand', sans-serif;">Tic Tac Toe Game using JQuery</h2>
+        <div style="font-family: 'Quicksand', sans-serif;" id="result">you are currently playing as X</div>
+        <div class="row text-center">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <table id="tictac">
+              <tbody>
+                <tr>
+                  <td id="cell0"></td>
+                  <td id="cell1"></td>
+                  <td id="cell2"></td>
+                </tr>
+                <tr>
+                  <td id="cell3"></td>
+                  <td id="cell4"></td>
+                  <td id="cell5"></td>
+                </tr>
+                <tr>
+                  <td id="cell6"></td>
+                  <td id="cell7"></td>
+                  <td id="cell8"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-2" id="rightboard"></div>
+        </div>
+        <div class="mybutton text-center">
+          <button type="button" class="playerPick" value="X" id="x">X</button>
+          <button type="button" id="reset">Reset</button>
+          <button type="button" class="playerPick" id="o" value="O">O</button>
+        </div>
+      </div>
+    </section>
+    <!-- akhir Project -->
+    <!-- Page content end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: "ease-in-out", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: true, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+    <!-- aos -->
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", ease: "bounce" });
+      gsap.from(".learnme", {
+        duration: 2,
+        delay: "5.7",
+        opacity: 0,
+        y: "+300%",
+        ease: "bounce",
+      });
+      gsap.to(".lead", {
+        duration: "3.5",
+        delay: "2",
+        text: "||Programmer || Gamer || Editor || Designer || Joker ||",
+      });
+    </script>
+    <!-- gsap end -->
+  </body>
+</html>
+
+<!-- unused code -->
+<!--
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="currentColor"
+  class="bi bi-telegram"
+  viewBox="0 0 16 16"
+>
+  <path
+    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+  />
+</svg>
+ -->
+=========================================
+<div class="col mx-auto" id="sechan">
+  <a
+    class="btn rounded-pill btn-lg m-3 btn-outline-danger md-3"
+    href="index.html#sec"
+    role="button"
+  >
+    <svg
+      width="24"
+      height="24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+    >
+      <path
+        d="M17.281 8.991l3.706 1.97-2.261 2.013.011.006 2.25 3.09-2.25 1.228v3.096l-6.75 3.606-6.75-3.606v-3.091l-2.25-1.225 2.234-3.075-2.234-1.966 3.747-2.043c-.108.371-.197.808-.245 1.272l-1.769.964 1.181 1.04.624-.345c.056.339.146.672.279.984l-.823.456 6.028 3.124 5.978-3.119-.812-.451c.145-.299.245-.618.31-.944l.531.293 1.234-1.098-1.707-.907c-.05-.464-.146-.9-.262-1.272zm-4.798 8.217v5.393l5.256-2.807v-1.951l-3.502 1.91-1.754-2.545zm-6.247.639v1.947l5.249 2.804v-5.388l-1.748 2.543-3.501-1.906zm-1.772-2.103l4.96 2.7 1.099-1.599-4.983-2.582-1.076 1.481zm8.989 1.11l1.096 1.59 4.96-2.706-1.073-1.475-4.983 2.591zm-1.199-1.691h-.625l.003-2.728h.625l-.003 2.728zm-1.159-1.424h-.625l.009-1.739h.625l-.009 1.739zm2.358-.014h-.626l-.009-1.725h.625l.01 1.725zm-3.094-2.468l-.318-.734c-.732.269-2.155 2.284-2.155 2.284-1.195-2.607.161-4.846 1.243-5.659-.083-.699-.644-4.168 2.817-7.113l.041-.035.041.035c3.462 2.945 2.901 6.414 2.817 7.113 1.083.813 2.438 3.052 1.243 5.659 0 0-1.423-2.015-2.155-2.284l-.317.734-1.629.005-1.628-.005zm1.628-9.919c-1.093.923-2.432 3.393-1.854 6.223-.726.6-1.58 1.454-1.712 3.089.577-.77 1.419-1.21 2.091-1.356 0 0 .424.782.507.973l.968.003.969-.003c.083-.191.507-.973.507-.973.671.146 1.513.586 2.091 1.356-.133-1.635-.967-2.472-1.693-3.072.586-2.722-.771-5.295-1.861-6.229l-.013-.011zm-.044 5.693c-.284-.001-.515-.231-.515-.516 0-.285.231-.515.515-.515.284 0 .514.23.514.515 0 .285-.23.515-.514.516zm0-1.844c-.569 0-1.029-.462-1.03-1.031.001-.57.461-1.031 1.03-1.031s1.029.461 1.029 1.031c0 .569-.46 1.03-1.029 1.031zm0-1.434c.214 0 .388.174.388.389 0 .215-.174.389-.388.389-.215 0-.389-.174-.389-.389 0-.215.174-.389.389-.389z"
+      />
+    </svg>
+    <p class="text-black mb-2 me-3 ms-3 mt-sm-1 text-decoration-none sec">
+      I Am Legend
+    </p>
+  </a>
+</div>

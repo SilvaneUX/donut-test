@@ -1,0 +1,77 @@
+font-family: 'Quicksand', sans-serif;
+
+input{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    border: 2px solid red;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.operator{
+    padding: 3px;
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#hitung{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    width: 180px;
+    border-bottom-left-radius: 40px;
+    border: 2px solid red;
+    border-bottom-right-radius: 40px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#hitung:hover{
+    background: #000;
+    color: #fff;
+}
+.calc{
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.muka{
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+.demo {
+    position: relative;
+    top: 220px;
+    left: 50px;
+}
+h1{text-align: center;}
+
+#board {
+    font-family: 'Quicksand', sans-serif;
+    background-position: center top;
+    background-size: 100% 100%;
+    border-right: tan solid 4px;
+    border-top: #bda27e solid 4px;
+    border-left: #b19876 solid 4px;
+    border-bottom: #c9ad86 solid 4px;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782,
+      0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    background-size: 100% auto;
+    padding: 2% 2% 0% 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+  }

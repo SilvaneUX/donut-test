@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+int lcs(string s,string t,int i, int j)
+{
+int m = s.size();
+int n = t.size();
+vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+for (int i = 1; i <= m; i++) {
+for (int j = 1; j <= n; j++) {
+if (s[i - 1] == t[j - 1]) {
+dp[i][j] = 1 + dp[i - 1][j - 1];
+} else {
+dp[i][j] = max(dp[i - 1][j], dp[i][j -1]);
+}
+}
+}
+return dp[m][n];
+}
+int main()
+{
+string s,t;
+cin>>s>>t;
+int x=lcs(s,t,s.size()-1,t.size()-1);
+cout<<x;
+return 0;
+}

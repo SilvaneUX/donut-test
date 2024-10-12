@@ -1,0 +1,99 @@
+- AngelinaDataset-master
+  - .gitignore
+  - books
+    - chudo_derevo_redmi
+      - IMG_20190715_112912.labeled.csv
+      - IMG_20190715_112912.labeled.jpg
+      - IMG_20190715_112912.labeled.json
+      ...another file
+      
+    - mdd-redmi1
+      - 01crop.labeled.csv
+      - 01crop.labeled.jpg
+      - 01crop.labeled.json
+      ...another file
+      
+    - mdd_cannon1
+      - 01crop.labeled.csv
+      - 01crop.labeled.jpg
+      - 01crop.labeled.json
+      ...another file
+
+    - ola
+      - IMG_5200.labeled.csv
+      - IMG_5200.labeled.jpg
+      - IMG_5200.labeled.json
+      ...another file
+
+    - skazki
+      - IMG_20190715_121011.labeled.csv
+      - IMG_20190715_121011.labeled.jpg
+      - IMG_20190715_121011.labeled.json
+      ...another file
+
+    - telefon
+      - IMG_20190715_123123.labeled.csv
+      - IMG_20190715_123123.labeled.jpg
+      - IMG_20190715_123123.labeled.json
+      ...another file
+
+    - train.txt
+    - uploaded
+      - 15662143454241346711394.labeled.csv
+      - 15662143454241346711394.labeled.jpg
+      - 15662143454241346711394.labeled.json
+      ...another file
+
+    - val.txt
+
+  - handwritten
+    - ang_redmi
+      - 01.labeled.csv
+      - 01.labeled.jpg
+      - 01.labeled.json
+    ...another file
+
+    - kov
+      - 04089871-23a0-44ca-8830-581a13b03153.labeled.csv
+      - 04089871-23a0-44ca-8830-581a13b03153.labeled.jpg
+      - 04089871-23a0-44ca-8830-581a13b03153.labeled.json
+      ...another file
+
+    - train.txt
+    - uploaded
+      - 1563957317247869394114.labeled.csv
+      - 1563957317247869394114.labeled.jpg
+      - 1563957317247869394114.labeled.json
+      ...another file
+
+    - val.txt
+  - not_braille
+    - misc
+      - 016.csv
+      - 016.jpg
+      - 016.json
+      ...another file
+    - train.txt
+  - pics
+    - encoding.jpg
+    - labeled.jpg
+    - raw.jpg
+  - README.md
+  - src
+    - annotation_demo.py
+    - convert_json_to_csv.py
+    - data.py
+    - label_tools.py
+    - letters.py
+    - __pycache__
+      - data.cpython-312.pyc
+      - label_tools.cpython-312.pyc
+      - letters.cpython-312.pyc
+  - uploaded
+    - test.txt
+    - test2
+      - 0c62b07dc3ff44e4982cbb573f3b6d95.labeled.csv
+      - 0c62b07dc3ff44e4982cbb573f3b6d95.labeled.jpg
+      - 0c62b07dc3ff44e4982cbb573f3b6d95.labeled.json
+      ...another file
+- main.ipynb

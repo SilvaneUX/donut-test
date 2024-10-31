@@ -68,5 +68,3 @@ def spinning_donut():
 <h2>🌈 Keep up the great work!</h2>
 <p>Thank you for contributing. Remember to add yourself to the contributors list. You can always submit another PR to complete your Hacktoberfest challenge!</p>
 
-</body>
-</html>

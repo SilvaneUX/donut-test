@@ -1,0 +1,32 @@
+{
+  "theme": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#1e40af",
+    "fontColorMode": "auto",
+    "fontColor": "#ffffff"
+  },
+  "navbar": {
+    "logo": "",
+    "title": "JoVan",
+    "showLogo": false
+  },
+  "hero": {
+    "title": "Welcome to JoVan",
+    "subtitle": "Your trusted partner for export and import of local commodities",
+    "backgroundImage": "",
+    "useBackgroundImage": false
+  },
+  "about": {
+    "description": "JoVan is a leading import and export company specializing in local commodities.",
+    "vision": "To be the premier bridge connecting local commodities to global markets.",
+    "mission": "To facilitate international trade while supporting local producers and maintaining the highest quality standards.",
+    "customSections": []
+  },
+  "contact": {
+    "whatsappNumber": "+1234567890",
+    "email": "info@jovan.com",
+    "phone": "+1 (234) 567-890",
+    "address": "123 Business Street, City, Country",
+    "customInfo": []
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Coffee Beans",
+    "description": "High-quality Arabica coffee beans sourced from local farms",
+    "category": "Agricultural",
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop",
+    "whatsappNumber": "+1234567890",
+    "price": "Contact for pricing",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Organic Spices",
+    "description": "Fresh organic spices including turmeric, ginger, and pepper",
+    "category": "Agricultural",
+    "image": "https://images.unsplash.com/photo-1596040033229-a0b531b3f67f?w=400&h=300&fit=crop",
+    "whatsappNumber": "+1234567890",
+    "price": "Contact for pricing",
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Handcrafted Textiles",
+    "description": "Locally made textiles with traditional patterns",
+    "category": "Handicrafts",
+    "image": "https://images.unsplash.com/photo-1588783948922-ac266c87e975?w=400&h=300&fit=crop",
+    "whatsappNumber": "+1234567890",
+    "price": "Contact for pricing",
+    "createdAt": "2024-01-03T00:00:00.000Z"
+  }
+]

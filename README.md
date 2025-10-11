@@ -1,7 +1,21 @@
+<h1>🎈 Welcome to Donut-Test!</h1>
+<p>Feel free to share your own code! Our mission is to maintain clean code (you can contribute anything you like!). Just remember, no "Hello World" submissions!</p>
 
-
-<h1>🍩 Hacktoberfest Repository 🍩</h1>
+<h2>🍩 Hacktoberfest Repository 🍩</h2>
 <p>Are you ready to participate in Hacktoberfest? Join us <a href="https://github.com/SilvaneUX/donut-test">HERE</a>! Why not check it out again?</p>
+
+<pre><code># Example Code Submission
+def spinning_donut():
+    print("Spinning donut in 3D!")
+</code></pre>
+
+<p>I’ll accept any runnable code—even if it has some bugs. Just mention any bugs you find to make it more interesting!</p>
+<p>After contributing (bug lists, code reviews, new PRs, etc.), don’t forget to add your name to the <code>CONTRIBUTING.md</code>! I’ll merge it as soon as someone adds a new name to the list.</p>
+
+<div class="legacy">
+    <h2>🌟 Legacy of Donut-Test</h2>
+    <p>Wow, it's a donut! 🍩 I’m a huge fan of donuts, and I created this repository to showcase a spinning 3D donut in various programming languages! Inspired by the classic Python spinning donut, this project will soon be on hold. But don’t worry—we’ll bring it back as soon as we finish remaking it in Python!</p>
+</div>
 
 <h2>🎉 FAQ</h2>
 <div class="faq">
@@ -45,24 +59,16 @@
     <li>Be sad</li>
 </ul>
 
-<div class="legacy">
-    <h2>🌟 Legacy of Donut-Test</h2>
-    <p>Wow, it's a donut! 🍩 I’m a huge fan of donuts, and I created this repository to showcase a spinning 3D donut in various programming languages! Inspired by the classic Python spinning donut, this project will soon be on hold. But don’t worry—we’ll bring it back as soon as we finish remaking it in Python!</p>
-</div>
-
-<h2>🎈 Welcome to Donut-Test!</h2>
-<p>Feel free to share your own code! Our mission is to maintain clean code (you can contribute anything you like!). Just remember, no "Hello World" submissions!</p>
-
-<pre><code># Example Code Submission
-def spinning_donut():
-    print("Spinning donut in 3D!")
-</code></pre>
-
-<p>I’ll accept any runnable code—even if it has some bugs. Just mention any bugs you find to make it more interesting!</p>
-<p>After contributing (bug lists, code reviews, new PRs, etc.), don’t forget to add your name to the <code>CONTRIBUTING.md</code>! I’ll merge it as soon as someone adds a new name to the list.</p>
-
 <div class="contribution">
+    <h2>🛂 Contributions</h2>
     <p>Thank you for your contributions! Happy coding, and don’t forget to feed a bug! 🐞</p>
+    <ul>
+        <li>Made with <a href="https://contrib.rocks">contrib.rocks</a></li>
+    </ul>
+    </br>
+    <a href="https://github.com/SilvaneUX/donut-test/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=SilvaneUX/donut-test" />
+    </a>
 </div>
 
 <h2>✨ Keep up the great work!</h2>

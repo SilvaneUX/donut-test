@@ -1,0 +1,8 @@
+../Core/Src/main.c:12:6:SystemClock_Config	3
+../Core/Src/main.c:43:6:RCC_Config	1
+../Core/Src/main.c:52:6:GPIO_Config	1
+../Core/Src/main.c:78:6:TIM2_Config	1
+../Core/Src/main.c:104:6:EXTI9_5_IRQHandler	1
+../Core/Src/main.c:110:6:HAL_GPIO_EXTI_Callback	4
+../Core/Src/main.c:125:5:main	1
+../Core/Src/main.c:141:6:Error_Handler	1

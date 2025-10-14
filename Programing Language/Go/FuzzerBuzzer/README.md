@@ -23,8 +23,8 @@ To set up FuzzerBuzzer, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ayushi40804/Hacktoberfest2024.git
-   cd Hacktoberfest2024/FuzzerBuzzer
+   git clone https://github.com/SilvaneUX/donut-test.git
+   cd "donut-test/Programing Language/Go/FuzzerBuzzer"
 2. Ensure you have Go installed on your machine. If not, download and install it from https://golang.org.
 
 3. Install necessary dependencies:
@@ -95,4 +95,5 @@ FuzzerBuzzer/
 ├── tests/
 │   └── fuzzer_test.go         # Test cases for the fuzzer
 ├── go.mod                      # Go module definition
+
 └── README.md                   # Project documentation

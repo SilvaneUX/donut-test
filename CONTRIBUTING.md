@@ -45,3 +45,4 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 27. sahilshingate01 (Contributor)
 28. rishaan007 (Contributor)
 29. sahilshingate01 (Contributor)
+30. Rik-web-fullstack (Contributor)

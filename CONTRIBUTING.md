@@ -1,5 +1,7 @@
 # Contributing Guidelines
+
 ### Terms and Conditions
+
 1. Register anytime between September 26 and October 31 [(click here!)](https://hacktoberfest.com/)
 2. Pull requests can be made in any GITHUB or GITLAB hosted project that’s participating in Hacktoberfest (look for the “hacktoberfest” topic)
 3. Project maintainers must accept your pull/merge requests for them to count toward your total
@@ -13,6 +15,7 @@ I will accept any source code that can run (it's okay if it had some bug, at lea
 All bugged code will be fixed by other people, but please mention the bug so it will be more challenging.
 
 ### Contributor and Maintainers List:
+
 1. SilvaneUX - Silvanus Prihantono (Contributor and Mantainer)
 2. bukanvalen - Valentino Harpa(Contributor)
 3. syaugis - M. Syaugi Shahab (Contributor)
@@ -33,8 +36,9 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 18. SachindaBandara (Contributor)
 19. Shrihari25-hub (Contributor)
 20. Srijan76-code (Contributor)
-21. Prakashjhax  (Contributor)
+21. Prakashjhax (Contributor)
 22. SubhamKojha (Contributor)
 23. thamyis100 (Contributor)
 24. srijani006 (Contributor)
 25. oceankumar (Contributor)
+26. ArinMandal (Contributor)

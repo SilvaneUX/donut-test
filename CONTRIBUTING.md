@@ -17,13 +17,13 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 ### Contributor and Maintainers List:
 
 1. SilvaneUX - Silvanus Prihantono (Contributor and Mantainer)
-2. bukanvalen - Valentino Harpa(Contributor)
+2. bukanvalen - Valentino Harpa (Contributor and Maintainer)
 3. syaugis - M. Syaugi Shahab (Contributor)
 4. Mkuadrattt (Contributor)
 5. GagasAmukti (Contributor)
 6. dmaxz - Ken Dahana (Contributor)
 7. RezaAminullah (Contributor)
-8. Atik Vohra(Contributor)
+8. Atik Vohra (Contributor)
 9. Sourabh06 (Contributor)
 10. lakshay007 (Contributor)
 11. vitorquadros (Contributor)
@@ -47,6 +47,6 @@ All bugged code will be fixed by other people, but please mention the bug so it 
 29. sahilshingate01 (Contributor)
 30. Rik-web-fullstack (Contributor)
 31. chandradeep12 (Contributor)
-
-31. d-mahi14(Contributer)
-33. Anibhu(Contributer)
+32. d-mahi14 (Contributor)
+33. wahyuramadhan2 (Contributor)
+34. Anibhu (Contributor)

@@ -18,7 +18,7 @@ def spinning_donut():
 <ul>
     <li><p>Legacy Donut-Test Archive Repository (2020-2025) : <del><a href="https://github.com/SilvaneUX/donut-test">Here!</a></del>  (COMING SOON). It will availble After 3 November 2025 (After 2025 Hacktoberfest officially completed) and this notice will be moved to Legacy of Donut Test Section</p></li>
     <li><p>in This Repository, You could do N-1 Pull Request idea or code with Hacktoberfest requirement to compplete Hacktoberfest.</p>
-        <p>For example : 2025 Hacktoberfest completion requirements are doing 6 Pull Requests. In this Repo you can submit 5 Pull Request of your Idea or code and then submit 1 Pull Request to add your name, github username, and some contack, and or your portofolio website link there (Dont put fake, advertsiment, or phising website link we will check it and banned them) </p></li>
+        <p>For example : 2025 Hacktoberfest completion requirements are doing 6 Pull Requests. In this Repo you can submit 5 Pull Request of your Idea or code and then submit 1 Pull Request to add your name, github username, and some contact, and or your portofolio website link there (Dont put fake, advertsiment, or phising website link we will check it and banned them) </p></li>
 <br>
 </ul>
     
@@ -67,7 +67,7 @@ def spinning_donut():
 
 <h2>❌ Don’t:</h2>
 <ul>
-    <li>Include <code>YourCompiledProgra,.exe</code> in your pull request </li>
+    <li>Include the executable (e.g., <code>YourCompiledProgram.exe</code>) in your pull request </li>
     <li>Delete existing code</li>
     <li>Submit a "Hello World" PR</li>
     <li>Attempt to hack NASA satellites</li>
@@ -77,10 +77,10 @@ def spinning_donut():
 <br>
 <h2>💡 Tips:</h2>
 <ul>
-    <li>Add yourself to contribution list as seperate Pull Request (It's a Bonus Pull Request 😁)</li>
+    <li>Add yourself to contribution list as separate Pull Request (It's a Bonus Pull Request 😁)</li>
     <li>If someone open an issue, you could try it too but with diffrent languange</li>
-    <li>There is Major Update at the end of 2025 Hcktoberfest on this Repo. to make it light-weight, i will move all previous code to new Repo as Archive Repo considering this repo growing so much. Dont worry, all your contribution and your name still be because as Contribution List markdown still here. </li>
-    <li>Add your compiled program to <code>.gtignore</code> so it will be excludedd in your pull request </li>
+    <li>There is Major Update at the end of 2025 Hacktoberfest on this Repo. to make it light-weight, I will move all previous code to new Repo as Archive Repo considering this repo growing so much. Dont worry, all your contribution and your name still be because as Contribution List markdown still here. </li>
+    <li>Add your compiled program to <code>.gitignore</code> so it will be excludedd in your pull request </li>
     
 </ul>
 <br>

@@ -1,0 +1,7 @@
+../Core/Src/main.c:9:20:DWT_Init_and_calc	4	static
+../Core/Src/main.c:18:20:DWT_Delay_us_fast	24	static,ignoring_inline_asm
+../Core/Src/main.c:34:6:SystemClock_Config	72	static
+../Core/Src/main.c:66:6:SystemClock_Config_Fallback_HSI	72	static
+../Core/Src/main.c:85:6:Periph_Config	4	static
+../Core/Src/main.c:100:5:main	8	static
+../Core/Src/main.c:121:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Password Tool 🔐</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card glass">
+      <h1 class="neon">Create Your Own Password</h1>
+      <div class="output">
+        <input type="text" id="password" readonly placeholder="Generated Password">
+        <button id="copyBtn" class="btn">Copy</button>
+      </div>
+
+      <div class="controls">
+        <label>Password Length: <span id="lengthValue">12</span></label>
+        <input type="range" id="length" min="4" max="30" value="12">
+
+        <div class="options">
+          <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+          <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+          <label><input type="checkbox" id="numbers" checked> Numbers</label>
+          <label><input type="checkbox" id="symbols"> Symbols</label>
+        </div>
+
+        <button id="generate" class="btn glow">Generate Password</button>
+      </div>
+
+      <div class="strength">
+        <p>Password Strength: <span id="strengthText">Weak</span></p>
+        <div class="meter"><div id="meterFill"></div></div>
+      </div>
+    </div>
+
+
+    <div class="card glass">
+      <h1 class="neon">Check Your Password Strength</h1>
+      <div class="output">
+        <input type="text" id="userPassword" placeholder="Enter your password">
+        <button id="checkBtn" class="btn secondary">Check</button>
+      </div>
+      <div class="strength">
+        <p>Strength: <span id="userStrength">-</span></p>
+        <div class="meter"><div id="userMeter"></div></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

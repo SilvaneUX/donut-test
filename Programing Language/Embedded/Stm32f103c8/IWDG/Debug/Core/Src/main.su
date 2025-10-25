@@ -1,0 +1,5 @@
+../Core/Src/main.c:2:6:SystemClock_Config	72	static
+../Core/Src/main.c:33:6:lsi_config	48	static
+../Core/Src/main.c:45:6:GPIO_Config	4	static
+../Core/Src/main.c:54:6:iwdg_config	16	static
+../Core/Src/main.c:88:5:main	16	static

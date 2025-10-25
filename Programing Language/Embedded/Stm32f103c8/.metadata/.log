@@ -8896,3 +8896,36 @@ java.lang.Exception: The project description file (.project) for 'PWM' is missin
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-10-25 21:47:29.609
 !MESSAGE Indexed 'IWDG' (17 sources, 78 headers) in 2.74 sec: 3,643 declarations; 13,251 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-25 23:20:32.287
+!MESSAGE Indexed 'WWDG' (17 sources, 78 headers) in 1.95 sec: 3,643 declarations; 13,251 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2025-10-25 23:22:00.595 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Lln_Sln_Scn\Documents\college\hacktoberfest\donut-test\Programing Language\Embedded\Stm32f103c8
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-25 23:22:05.000
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-25 23:22:05.002
+!MESSAGE Log4j2 initialized with config file C:\Users\Lln_Sln_Scn\Documents\college\hacktoberfest\donut-test\Programing Language\Embedded\Stm32f103c8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-25 23:22:10.498
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-10-25 23:32:04.844 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-25 23:32:12.381
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-25 23:32:12.382
+!MESSAGE Log4j2 initialized with config file C:\Users\Lln_Sln_Scn\Documents\college\hacktoberfest\donut-test\Programing Language\Embedded\Stm32f103c8\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-25 23:32:17.571
+!MESSAGE Started RMI Server, listening on port 41337

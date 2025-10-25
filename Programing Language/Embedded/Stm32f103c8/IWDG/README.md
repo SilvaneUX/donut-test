@@ -21,12 +21,14 @@ Math: calculating IWDG timeout
 
 The IWDG counter is clocked by the LSI oscillator. The timeout period t (seconds) for a given reload R and prescaler P is:
 
-$ t = \dfrac{(R + 1) \cdot P}{f_{LSI}} $
+```text
+t = ((R + 1) * P) / f_LSI   (seconds)
+```
 
 Where:
-- $R$ is the 12-bit reload value (0..4095).
-- $P$ is the prescaler divider (one of 4, 8, 16, 32, 64, 128, 256).
-- $f_{LSI}$ is the LSI oscillator frequency (Hz). Typical nominal value often used is ~40 000 Hz, but it varies per part and temperature — measure it if you need accurate timeouts.
+- R is the 12-bit reload value (0..4095).
+- P is the prescaler divider (one of 4, 8, 16, 32, 64, 128, 256).
+- f_LSI is the LSI oscillator frequency (Hz). A common nominal value is ~40,000 Hz, but it varies per part and with temperature — measure it if you need accurate timeouts.
 
 Prescaler mapping to PR register value (used by the IWDG PR field):
 - div 4  -> PR = 0
@@ -39,17 +41,25 @@ Prescaler mapping to PR register value (used by the IWDG PR field):
 
 Example calculations (use these as guides):
 
-1) Example from current code: prescaler = 4, reload = 999, assume $f_{LSI} = 40\,000$ Hz
+1) Example from current code: prescaler = 4, reload = 999, assume f_LSI = 40,000 Hz
 
-$ t = \dfrac{(999 + 1) \cdot 4}{40\,000} = \dfrac{4\,000}{40\,000} = 0.1\ \text{seconds} $ (100 ms)
+Calculation:
+
+```text
+t = ((999 + 1) * 4) / 40000 = 4000 / 40000 = 0.1 seconds  (100 ms)
+```
 
 So with those parameters the watchdog will reset the MCU roughly every 100 ms unless the application reloads the counter faster than that.
 
 2) Maximum-ish timeout using max reload (4095) and largest prescaler (256):
 
-$ t = \dfrac{(4095 + 1) \cdot 256}{40\,000} = \dfrac{1\,048\,576}{40\,000} \approx 26.21\ \text{seconds} $
+Calculation (assuming f_LSI = 40,000 Hz):
 
-(With a lower actual LSI frequency the timeout increases. Conversely, a higher LSI frequency reduces timeout.)
+```text
+t = ((4095 + 1) * 256) / 40000 = 1048576 / 40000 ≈ 26.21 seconds
+```
+
+(With a lower actual LSI frequency the timeout increases. Conversely, a higher LSI frequency reduces the timeout.)
 
 Recommendation: measure LSI frequency on your board if you need precise timeouts. One common approach is to route LSI to a timer input (if supported) and measure it with a timer capture.
 

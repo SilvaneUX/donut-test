@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shipping-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shipping-service
+  template:
+    metadata:
+      labels:
+        app: shipping-service
+    spec:
+      containers:
+        - name: shipping-service
+          image: ghcr.io/thamyis100/shipping-service:latest
+          ports:
+            - containerPort: 3001
+          env:
+            - name: AMQP_URL
+              value: "amqp://guest:guest8@rabbitmq:5672" # AMQP URL for RabbitMQ

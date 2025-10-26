@@ -1,0 +1,3 @@
+order-services : ghcr.io/thamyis100/order-service:latest
+shipping-services : ghcr.io/thamyis100/shipping-service:latest
+link github: https://github.com/thamyis100/a433-microservices

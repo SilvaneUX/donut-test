@@ -1,18 +1,18 @@
 # Contributing Guidelines
 
-### Terms and Conditions
+## Terms and Conditions
 
-1. Register anytime between September 26 and October 31 [(click here!)](https://hacktoberfest.com/)
-2. Pull requests can be made in any GITHUB or GITLAB hosted project that’s participating in Hacktoberfest (look for the “hacktoberfest” topic)
-3. Project maintainers must accept your pull/merge requests for them to count toward your total
-4. Have 4 pull/merge requests accepted between October 1 and October 31 to complete Hacktoberfest
-5. The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest t-shirt (Sadly, from 2023 they doesn't sent any t-shirt prize anymore).
+1. **Event Duration:** Register for Hacktoberfest anytime between **September 26 and October 31**. [Register here](https://hacktoberfest.com/).  
+2. **Eligible Projects:** Pull requests can be submitted to any **GitHub or GitLab project** participating in Hacktoberfest (look for the **“hacktoberfest”** topic).  
+3. **PR Acceptance:** Project maintainers must accept your pull/merge requests for them to count toward your total contributions.  
+4. **Completion Requirement:** Have **4 pull/merge requests accepted** between **October 1 and October 31** to successfully complete Hacktoberfest.  
+5. **Prizes:** The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can choose a prize: a tree planted in their name. *(Note: Hacktoberfest no longer provides t-shirts as of 2023.)*  
 
-Feel free to do your own code. Our mission is to get clean code (you can pull everything you like!)
-But of course, please don't just print "Hello world" or anything like that!
+## Contribution Guidelines
 
-I will accept any source code that can run (it's okay if it had some bug, at least it can run).
-All bugged code will be fixed by other people, but please mention the bug so it will be more challenging.
+- **Code Freedom:** Feel free to contribute any code you like. Our mission is to collect **clean, functional code**.  
+- **Meaningful Contributions:** Avoid trivial submissions like just printing `"Hello World"`. Contributions should do something meaningful or demonstrate programming concepts.  
+- **Buggy Code:** Submissions with bugs are welcome as long as the code **runs**. Please mention any known issues in your PR description — it helps others debug and makes the challenge more interesting!
 
 ### Contributor and Maintainers List:
 

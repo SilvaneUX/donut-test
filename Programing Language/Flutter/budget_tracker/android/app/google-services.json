@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "394318812491",
+    "firebase_url": "https://makanan-padang-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "makanan-padang",
+    "storage_bucket": "makanan-padang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394318812491:android:daea46be8a0246fd4404ce",
+        "android_client_info": {
+          "package_name": "com.example.budget_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_iBn9fLx-7l3V9vJ0CzSAzS0OsJY9c7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394318812491:android:c487af05d3ef209a4404ce",
+        "android_client_info": {
+          "package_name": "com.example.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_iBn9fLx-7l3V9vJ0CzSAzS0OsJY9c7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394318812491:android:ef6b5166412aeaab4404ce",
+        "android_client_info": {
+          "package_name": "com.example.event_surabaya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_iBn9fLx-7l3V9vJ0CzSAzS0OsJY9c7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

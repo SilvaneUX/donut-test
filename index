@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Password Tool 🔐</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card glass">
+      <h1 class="neon">Create Your Own Password</h1>
+      
+      <div class="output">
+        <label for="password" class="sr-only">Generated Password</label>
+        <input type="text" id="password" readonly placeholder="Generated Password" aria-live="polite" autocomplete="new-password">
+        <button id="copyBtn" class="btn">Copy</button>
+        <span id="copyMessage" class="copy-feedback" aria-live="polite"></span>
+      </div>
+
+      <form id="generatorForm">
+        <div class="controls">
+          
+          <div class="control-group">
+            <label for="length">Password Length: <span id="lengthValue">12</span></label>
+            <input type="range" id="length" min="4" max="30" value="12" aria-labelledby="length">
+          </div>
+
+          <fieldset class="options">
+            <legend>Character Types</legend>
+            
+            <div class="option-item">
+              <input type="checkbox" id="uppercase" checked>
+              <label for="uppercase">Uppercase</label>
+            </div>
+            <div class="option-item">
+              <input type="checkbox" id="lowercase" checked>
+              <label for="lowercase">Lowercase</label>
+            </div>
+            <div class="option-item">
+              <input type="checkbox" id="numbers" checked>
+              <label for="numbers">Numbers</label>
+            </div>
+            <div class="option-item">
+              <input type="checkbox" id="symbols">
+              <label for="symbols">Symbols</label>
+            </div>
+          </fieldset>
+
+          <button id="generate" class="btn glow" type="submit">Generate Password</button>
+        </div>
+      </form>
+
+      <div class="strength">
+        <p id="gen-strength-label">Password Strength: 
+          <span id="strengthText" aria-live="polite">Weak</span>
+        </p>
+        <meter id="genMeter" min="0" max="4" value="0" aria-labelledby="gen-strength-label"></meter>
+      </div>
+    </div>
+
+
+    <div class="card glass">
+      <h1 class="neon">Check Your Password Strength</h1>
+      
+      <form id="checkerForm">
+        <div class="output">
+          <label for="userPassword" class="sr-only">Enter your password to check</label>
+          <input type="password" id="userPassword" placeholder="Enter your password" autocomplete="off">
+          <button id="checkBtn" class="btn secondary" type="submit">Check</button>
+        </div>
+
+        <div class="password-toggle">
+          <input type="checkbox" id="showPassword">
+          <label for="showPassword">Show Password</label>
+        </div>
+      </form>
+
+      <div class="strength">
+        <p id="user-strength-label">Strength: 
+          <span id="userStrength" aria-live="polite">-</span>
+        </p>
+        <meter id="userMeter" min="0" max="4" value="0" aria-labelledby="user-strength-label"></meter>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

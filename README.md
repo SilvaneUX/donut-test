@@ -10,7 +10,7 @@ def spinning_donut():
     print("Spinning donut in 3D!")
 </code></pre>
 
-<p>I’ll accept any runnable code—even if it has some bugs. Just mention any bugs you find to make it more interesting!</p>
+<p>I’ll accept any runnableE code—even if it has some bugs. Just mention any bugs you find to make it more interesting!</p>
 <p>After contributing (bug lists, code reviews, new PRs, etc.), don’t forget to add your name to the <code>CONTRIBUTING.md</code>! I’ll merge it as soon as someone adds a new name to the list.</p>
 <br>
 

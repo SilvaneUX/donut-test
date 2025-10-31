@@ -6,7 +6,7 @@
 2. **Eligible Projects:** Pull requests can be submitted to any **GitHub or GitLab project** participating in Hacktoberfest (look for the **“hacktoberfest”** topic).  
 3. **PR Acceptance:** Project maintainers must accept your pull/merge requests for them to count toward your total contributions.  
 4. **Completion Requirement:** Have **4 pull/merge requests accepted** between **October 1 and October 31** to successfully complete Hacktoberfest.  
-5. **Prizes:** The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can choose a prize: a tree planted in their name. *(Note: Hacktoberfest no longer provides t-shirts as of 2023.)*  
+
 
 ## Contribution Guidelines
 
